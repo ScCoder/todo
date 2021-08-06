@@ -3,8 +3,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 exports.__esModule = true;
+var dotenv = require('dotenv');
+dotenv.config();
 var express_1 = __importDefault(require("express"));
-var port = 5000;
+var port = process.env.PORT || 5000;
 var app = express_1["default"]();
 app.get('/', function (request, response) {
     response.send("Hello world!");
