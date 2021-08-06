@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "runtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScCoder/todo.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "sc_coder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScCoder/todo/issues"
+  },
+  "homepage": "https://github.com/ScCoder/todo#readme"
+}
