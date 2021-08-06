@@ -2,7 +2,7 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "todo",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node .",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/ScCoder/todo#readme",
   "devDependencies": {
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1"
   }
 }
