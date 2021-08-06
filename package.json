@@ -4,6 +4,8 @@
   "description": "todo",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node .",
     "test": "runtest"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ScCoder/todo/issues"
   },
-  "homepage": "https://github.com/ScCoder/todo#readme"
+  "homepage": "https://github.com/ScCoder/todo#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
