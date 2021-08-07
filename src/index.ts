@@ -1,6 +1,8 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
+import facker = require('faker');
+
 import express from 'express'
 
 import router from './routers/router';
@@ -13,6 +15,8 @@ app.get('/',(request,response)=>{
     response.send("Hello world!");
 });
 
+
+app.use(express.json())
 app.use('/api',router);
 
 

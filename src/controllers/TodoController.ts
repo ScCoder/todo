@@ -15,13 +15,11 @@ class TodoController {
     }
 
     async create(req,res){
-        try {        
-            console.log(req.body);               
-            //const created = await Todo.Create({id:req.body.id, title:req.body.title});            
-            
-            const created = await Todo.Create({id:4, title:"WebPack"});            
+        try {                    
+            const created = await Todo.Create(req.body);            
+
             if (created){
-                res.staus(200).json('{Ok}')
+                res.json('{added:Ok}')
             }
 
         }
